@@ -24,7 +24,7 @@ export default function App() {
     
     function toggleFavorite() {
         setContact(prevContact => ({
-            ...prevContact,
+            ...prevContact, 
             isFavorite: !prevContact.isFavorite
         }))
     }
