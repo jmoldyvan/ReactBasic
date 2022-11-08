@@ -16,11 +16,6 @@ export default function App() {
     // to a parent class
 
 
-    return(
-        <div>
-            <button></button>
-        </div>
-    )
 
 
 
