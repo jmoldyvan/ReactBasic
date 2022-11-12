@@ -1,6 +1,6 @@
 import React from "react"
 import boxes from "./boxes"
-import Box from "./Box"
+import Box from "./BoxAndStyle"
 
 export default function App() {
     const [squares, setSquares] = React.useState(boxes)

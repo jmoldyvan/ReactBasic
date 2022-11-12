@@ -1,6 +1,6 @@
 import React from "react"
 import boxes from "./boxes"
-import Box from "./Box"
+import Box from "./BoxAndStyle"
 
 // boxes is an array of objects like:
 //          {
@@ -150,7 +150,7 @@ export default function App() {
 
 import React from "react"
 import boxes from "./boxes"
-import Box from "./Box"
+import Box from "./BoxAndStyle"
 
 export default function App() {
     const [squares, setSquares] = React.useState(boxes)
