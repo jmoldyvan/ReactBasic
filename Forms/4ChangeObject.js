@@ -11,7 +11,6 @@ export default function Form() {
     
     console.log(formData)
     
-
     
     return (
         <form>

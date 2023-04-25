@@ -108,7 +108,6 @@
 
 
 
-
 async function getPokemonInfo() {        
     try {
         const res = await fetch(`https://pokeapi.co/api/v2/pokemon}/`)

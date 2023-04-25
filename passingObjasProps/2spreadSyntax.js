@@ -1,7 +1,5 @@
-// create a react environment
-// map a componenent containing the following object(s) so that 
-// we can reuse if ther eare multiple of the same components
-// put the components in a section called "list"
+// map a componenent containing the following object(s) used as props 
+// we need to reuse the same componet if item has many different properties
 
 
 

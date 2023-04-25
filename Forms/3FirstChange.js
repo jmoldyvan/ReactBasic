@@ -10,7 +10,7 @@ export default function Form() {
     
     console.log(firstName)
     
-    function () {
+    function (event) {
         
     }
     
