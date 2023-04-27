@@ -22,7 +22,8 @@ import Box from "./Box"
 // if they do, change that individuals "on" property to the opposite while
 // spreading the old object, if the they individuals do not match, return the 
 // old square
-
+// use setSquares to update the
+// correct square in the array.
 
 
 export default function App() {
