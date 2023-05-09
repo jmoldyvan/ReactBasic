@@ -2,9 +2,11 @@ import React from "react"
 
 export default function Box(props) {
     // create a style object that changes pointerEvents to
-    // none if the props value on is false
+    // none if the props value on is false otherwise set to all
     // set that style in the div
     
+
+
     return (
         <div 
             className="box"

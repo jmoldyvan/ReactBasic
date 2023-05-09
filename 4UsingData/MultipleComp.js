@@ -11,9 +11,13 @@ import Box from "./BoxAndStyle"
 export default function App() {
 
     // boxes is our data source
-    // create a compnent for each object in 
-    // our data array, pass into each unique component
-    // the properties of each object, show it all in main
+    // map the data to a new compnonet called box 
+    // in each component, pass in the properties of each object as key, id, and on
+    // show the array in main
+
+    
+
+
 
     return (
         <main>
@@ -159,6 +163,7 @@ export default function App() {
         <Box 
             key={square.id} 
             id={square.id}
+            on={square.on}
         />
     ))
     

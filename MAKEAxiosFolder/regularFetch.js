@@ -109,12 +109,11 @@
 
 
 
-
 async function getPokemonInfo() {        
     try {
         const res = await fetch(`https://pokeapi.co/api/v2/pokemon}/`)
         const jsonData = await res.json()
-        return res.data;      
+        return jsonData.data;      
     } catch (error) {
         console.error(error);
     }
