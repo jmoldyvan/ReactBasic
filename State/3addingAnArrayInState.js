@@ -15,7 +15,7 @@ function App() {
     const [thingsArray, setThingsArray] = React.useState(["Thing 1", "Thing 2"])
     
     function addItem() {
-
+        
         
     }
     

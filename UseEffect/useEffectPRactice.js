@@ -2,7 +2,6 @@
 
 
 
-
 // create a useEffect that runs once per render
 
 
@@ -10,12 +9,6 @@
 
 
 // create a useEffect that ios contingent on a state
-
-
-
-
-
-
 
 
 
