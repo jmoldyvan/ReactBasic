@@ -9,7 +9,7 @@ export default function App() {
         isFavorite: false
     })
     
-    // set up a feunction that when button is clicked
+    // set up a unction that when button is clicked
     // will change only the isFavorite part of the object
     // to the opposite truthy value
 
