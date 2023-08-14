@@ -8,6 +8,56 @@
     function, as seen below:
     */
     
+// write a use Effect that has an async function, then runs that function as a cleanup
+// the function will fetch "https://api.imgflip.com/get_memes" 
+//  dont forget to set state as the response data
+ 
+const [s, setS] = useState()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     React.useEffect(() => {
         async function getMemes() {
             const res = await fetch("https://api.imgflip.com/get_memes")

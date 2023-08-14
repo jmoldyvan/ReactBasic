@@ -13,6 +13,7 @@ export default function App() {
     // will change only the isFavorite part of the object
     // to the opposite truthy value
 
+
     
 
     return(
@@ -22,14 +23,6 @@ export default function App() {
     )
 
     
-
-
-
-
-
-
-
-
 
 
 

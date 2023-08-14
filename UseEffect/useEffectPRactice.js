@@ -106,12 +106,6 @@
 
 
 
-
-
-
-
-
-
 // create a useEffect that runs on every render
 
 useEffect(() => {
