@@ -24,7 +24,7 @@
 
 import React, { usestate, useEffect, useState} from "react";
 import Loading from "./comp/Loading";
-
+import DataList from "./comp/DataList";
 
 
 export default function App(){
@@ -48,11 +48,20 @@ export default function App(){
         setListOfObjectsFromGCommer(data)
     }
 
-    
+    let listDataItemsFromAPI = listOfObjectsFromGCommer.map(items => {
+        return(
+            <DataList
+                key = {items.id}
+                {...items}
+            />
+        )
+    })
 
     return(
         <div>
-
+            <ul>
+                {listDataItemsFromAPI}                
+            </ul>
         </div>
     )
 }
