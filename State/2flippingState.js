@@ -9,6 +9,7 @@ export default function App() {
      * - Display "Yes" if `isGoingOut` is `true`, "No" otherwise
      */
 
+    
  
     
     return (
